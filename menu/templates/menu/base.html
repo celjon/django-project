@@ -1,0 +1,14 @@
+{% load menu_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Project</title>
+</head>
+<body>
+    <!-- Ваше основное меню -->
+    {% draw_menu 'main_menu' %}
+    <!-- Контент страницы -->
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
